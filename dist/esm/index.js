@@ -1,6 +1,6 @@
 import { __extends } from "tslib";
 import React, { Component } from "react";
-import metismenujs from 'metismenujs';
+import metismenujs from "metismenujs";
 var MetisMenu = /** @class */ (function (_super) {
     __extends(MetisMenu, _super);
     function MetisMenu() {
@@ -14,9 +14,9 @@ var MetisMenu = /** @class */ (function (_super) {
     };
     MetisMenu.prototype.render = function () {
         var _this = this;
-        var _a = this.props, subMenu = _a.subMenu, children = _a.children;
-        var MMTag = subMenu || 'ul';
-        return (React.createElement(MMTag, { ref: function (el) { return _this.el = el; } }, children));
+        var _a = this.props, subMenu = _a.subMenu, children = _a.children, className = _a.className;
+        var MMTag = subMenu || "ul";
+        return (React.createElement(MMTag, { className: "metismenu " + className, ref: function (el) { return (_this.el = el); } }, children));
     };
     return MetisMenu;
 }(Component));

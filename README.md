@@ -1,4 +1,4 @@
-# @metismenu/react
+# metismenu-react
 > react.js component for metismenu
 
 ## Getting started
@@ -6,19 +6,19 @@
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install @metismenu/react
+$ npm install metismenu-react
 ```
 
 Install with [yarn](https://yarnpkg.com):
 
 ```sh
-$ yarn add @metismenu/react
+$ yarn add metismenu-react
 ```
 
 Add project file to metismenu
 
 ```js
-import MetisMenu from '@metismenu/react';
+import MetisMenu from 'metismenu-react';
 
 // import MetisMenu css
 import 'metismenujs/dist/metismenujs.css';
@@ -31,7 +31,7 @@ import 'metismenujs/dist/metismenujs.css';
   // pages/SideBar.jsx
   import React from 'react'
   import { Link, NavLink } from 'react-router-dom'
-  import MetisMenu from '@metismenu/react';
+  import MetisMenu from 'metismenu-react';
   import 'metismenujs/dist/metismenujs.css';
 
   const SidebarNav = () => {

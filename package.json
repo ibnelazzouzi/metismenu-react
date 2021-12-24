@@ -1,6 +1,6 @@
 {
-  "name": "@metismenu/react",
-  "version": "0.0.3",
+  "name": "metismenu-react",
+  "version": "1.0.0",
   "description": "react component for MetisMenu",
   "keywords": [
     "metismenu",

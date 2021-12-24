@@ -109,3 +109,6 @@ typings/
 
 # Macos
 .DS_Store
+
+yarn.lock
+/package-lock.json
